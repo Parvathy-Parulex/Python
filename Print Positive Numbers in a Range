@@ -1,0 +1,7 @@
+#To find all positive numbers in a given range
+
+a=int(input("Range starting from:"))
+b=int(input("Range ending at:"))
+for number in range(a,b+1):
+    if number>=0:
+        print(number,end=" ")
